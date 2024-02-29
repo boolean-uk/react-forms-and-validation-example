@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Albert",
+      "lastName": "Einstein",
+      "gender": "male",
+      "terms": true
+    }
+  ]
+}

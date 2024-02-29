@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.form-stack input,
+.form-stack label {
+  display: block;
+}
+
+.form-stack * + * {
+  margin-top: 0.5rem;
+}
+
+.form-stack input[type="radio"],
+.form-stack input[type="radio"] + label,
+.form-stack input[type="checkbox"],
+.form-stack input[type="checkbox"] + label {
+  display: inline-block;
+}
+
+.error {
+  color: red;
+}
